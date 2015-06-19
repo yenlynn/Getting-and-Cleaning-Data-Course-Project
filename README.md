@@ -8,3 +8,7 @@
 6. train_subject - List of train subject, subject's id
 4. train_Xdata - List of train dataset
 5. train_ydata - List of train label set data
+6. test_join - Data consist of column bind test_subject, test_Xdata and test_ydata
+7. train_join - Data consist of column bind train_subject, train_Xdata and train_ydata
+
+##How the script work
