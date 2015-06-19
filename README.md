@@ -31,3 +31,7 @@
 17. Use grep to find all the column name with "std" in it into std_column
 18. Extract out the column name that consist column name with "std" into std_column_name
 19. Extract the fulldata with column subjectid, tid, column name with "mean" and column name with "std"
+20. Merge the activity_labels and newdata to get the activity_desc by merging activity_no from activity_label and tid from newdata
+21. Use melt function from reshape package to change the data presentation style to row
+22. Use the dcast function from reshape package to cast the data to produce the mean result.
+23. Use the write.table to save the output into a run_analysis.txt text file
